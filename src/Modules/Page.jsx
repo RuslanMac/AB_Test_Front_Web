@@ -4,7 +4,7 @@ import Table from '../Components/Table';
 import Button from '../Components/Button';
 import CommonAppStore from '../Stores';
 import { useState } from 'react';
-import { observer } from 'mobx-react';
+import { observer } from 'mobx-react-lite';
 import { Bar } from 'react-chartjs-2';
 import BarChart from '../Components/Bar';
 

@@ -13,8 +13,11 @@ class CommonAppStore {
       users: observable,
       metrics: observable,
       metric: observable,
+      chartData: observable,
+      chartLabel: observable,
       getUsers: action,
       getData: action,
+      
     });
   }
   async getUsers() {
